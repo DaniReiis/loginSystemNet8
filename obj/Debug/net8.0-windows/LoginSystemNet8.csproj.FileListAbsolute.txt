@@ -20,3 +20,6 @@ C:\Users\danie\OneDrive\Desktop\programação\Curso\Csharp\LoginSystemNet8\obj\D
 C:\Users\danie\OneDrive\Desktop\programação\Curso\Csharp\LoginSystemNet8\obj\Debug\net8.0-windows\LoginSystemNet8.pdb
 C:\Users\danie\OneDrive\Desktop\programação\Curso\Csharp\LoginSystemNet8\obj\Debug\net8.0-windows\LoginSystemNet8.genruntimeconfig.cache
 C:\Users\danie\OneDrive\Desktop\programação\Curso\Csharp\LoginSystemNet8\obj\Debug\net8.0-windows\ref\LoginSystemNet8.dll
+C:\Users\danie\OneDrive\Desktop\programação\Curso\Csharp\LoginSystemNet8\obj\Debug\net8.0-windows\LoginSystemNet8.sourcelink.json
+C:\Users\danie\OneDrive\Desktop\programação\Curso\Csharp\LoginSystemNet8\obj\Debug\net8.0-windows\LoginSystemNet8.RecuperarSenha.resources
+C:\Users\danie\OneDrive\Desktop\programação\Curso\Csharp\LoginSystemNet8\obj\Debug\net8.0-windows\LoginSystemNet8.Cadastro.resources

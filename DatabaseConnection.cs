@@ -8,10 +8,10 @@ namespace LoginSystemNet8
     {
         // String de conexão
         private static readonly string connectionString =
-            "Server=host;" +
-            "Database=name;" +
-            "User=user;" +
-            "Password=pass;";
+            "Server=devreis.mysql.dbaas.com.br;" +
+            "Database=devreis;" +
+            "User=devreis;" +
+            "Password=a@Hvg132gyiu47;";
 
         /// <summary>
         /// Retorna uma nova conexão MySQL
@@ -49,7 +49,6 @@ namespace LoginSystemNet8
                 using var connection = GetConnection();
                 await connection.OpenAsync();
 
-                // Query adaptada para sua tabela
                 string query = @"
                     SELECT * 
                     FROM usu_register 
@@ -90,7 +89,7 @@ namespace LoginSystemNet8
                 await connection.OpenAsync();
 
                 // Verifica se o usuário já existe
-                string checkQuery = "SELECT COUNT(*) FROM usu_register WHERE username = @username OR email = @email";
+                string checkQuery = "SELECT * FROM usu_register WHERE username = @username OR email = @email";
                 using var checkCommand = new MySqlCommand(checkQuery, connection);
                 checkCommand.Parameters.AddWithValue("@username", username);
                 checkCommand.Parameters.AddWithValue("@email", email);

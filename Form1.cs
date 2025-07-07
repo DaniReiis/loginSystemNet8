@@ -173,5 +173,37 @@ namespace LoginSystemNet8
                 textBox2.Focus();
             }
         }
+
+        /// <summary>
+        /// Mudar o form quando clica em "Cadastre-se"
+        /// </summary>
+        private void linkLabel2_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            Cadastro cadastro = new Cadastro();
+            this.Hide(); // Esconde o form atual
+            cadastro.Show();
+            cadastro.FormClosed += (s, args) =>
+            {
+                this.Show();
+                this.BringToFront();
+            };
+
+        }
+
+
+        /// <summary>
+        /// Mudar o form quando clica em "Esqueci a senha"
+        /// </summary>
+        private void linkLabel1_LinkClicked_1(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            RecuperarSenha recuperarSenha = new RecuperarSenha();
+            this.Hide(); // Esconde o form atual
+            recuperarSenha.Show();
+            recuperarSenha.FormClosed += (s, args) =>
+            {
+                this.Show();
+                this.BringToFront();
+            };
+        }
     }
 }
