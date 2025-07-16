@@ -104,19 +104,10 @@ namespace LoginSystemNet8
 
                     if (found)
                     {
-                        string userInfo = $"🆔 ID: {id}\n" +
-                                         $"👤 Usuário: {user}\n" +
-                                         $"📧 Email: {userEmail}\n" +
-                                         $"📅 Cadastrado em: {dataCreated:dd/MM/yyyy HH:mm:ss}";
+                        Painel painel = new Painel();
+                        this.Hide(); // Esconde o form atual
+                        painel.Show();
 
-                        DialogResult result = MessageBox.Show(userInfo + "\n\nDeseja ver mais detalhes?",
-                            "Informações do Usuário", MessageBoxButtons.YesNo, MessageBoxIcon.Information);
-
-                        if (result == DialogResult.Yes)
-                        {
-                            // Aqui você pode abrir outro form com mais detalhes
-                            MessageBox.Show("Aqui você pode implementar um form principal!", "Próximo Passo");
-                        }
                     }
 
                     // Limpa os campos após login bem-sucedido

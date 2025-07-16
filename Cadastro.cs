@@ -173,5 +173,16 @@ namespace LoginSystemNet8
             }
         }
 
+        private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            var voltarLogin = new Form1();
+            this.Hide(); // Esconde o form atual
+            voltarLogin.Show();
+            voltarLogin.FormClosed += (s, args) =>
+            {
+                this.Show();
+                this.BringToFront();
+            };
+        }
     }
 }

@@ -41,6 +41,7 @@
             textBox1 = new TextBox();
             label1 = new Label();
             label5 = new Label();
+            linkLabel1 = new LinkLabel();
             ((System.ComponentModel.ISupportInitialize)splitContainer1).BeginInit();
             splitContainer1.Panel1.SuspendLayout();
             splitContainer1.Panel2.SuspendLayout();
@@ -62,6 +63,7 @@
             // splitContainer1.Panel2
             // 
             splitContainer1.Panel2.BackColor = Color.White;
+            splitContainer1.Panel2.Controls.Add(linkLabel1);
             splitContainer1.Panel2.Controls.Add(button1);
             splitContainer1.Panel2.Controls.Add(textBox4);
             splitContainer1.Panel2.Controls.Add(label4);
@@ -193,6 +195,19 @@
             label5.Text = "Cadastro de usuario";
             label5.TextAlign = ContentAlignment.MiddleCenter;
             // 
+            // linkLabel1
+            // 
+            linkLabel1.AutoSize = true;
+            linkLabel1.Cursor = Cursors.Hand;
+            linkLabel1.LinkColor = Color.Maroon;
+            linkLabel1.Location = new Point(481, 9);
+            linkLabel1.Name = "linkLabel1";
+            linkLabel1.Size = new Size(37, 15);
+            linkLabel1.TabIndex = 17;
+            linkLabel1.TabStop = true;
+            linkLabel1.Text = "Voltar";
+            linkLabel1.LinkClicked += linkLabel1_LinkClicked;
+            // 
             // Cadastro
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
@@ -225,5 +240,6 @@
         private Label label2;
         private Button button1;
         private PictureBox pictureBox1;
+        private LinkLabel linkLabel1;
     }
 }

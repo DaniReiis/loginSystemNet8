@@ -23,3 +23,9 @@ C:\Users\danie\OneDrive\Desktop\programação\Curso\Csharp\LoginSystemNet8\obj\D
 C:\Users\danie\OneDrive\Desktop\programação\Curso\Csharp\LoginSystemNet8\obj\Debug\net8.0-windows\LoginSystemNet8.sourcelink.json
 C:\Users\danie\OneDrive\Desktop\programação\Curso\Csharp\LoginSystemNet8\obj\Debug\net8.0-windows\LoginSystemNet8.RecuperarSenha.resources
 C:\Users\danie\OneDrive\Desktop\programação\Curso\Csharp\LoginSystemNet8\obj\Debug\net8.0-windows\LoginSystemNet8.Cadastro.resources
+C:\Users\danie\OneDrive\Desktop\programação\Curso\Csharp\LoginSystemNet8\obj\Debug\net8.0-windows\LoginSystemNet8.painel.resources
+C:\Users\danie\OneDrive\Desktop\programação\Curso\Csharp\LoginSystemNet8\obj\Debug\net8.0-windows\LoginSystemNet8.PainelCadastro.resources
+C:\Users\danie\OneDrive\Desktop\programação\Curso\Csharp\LoginSystemNet8\obj\Debug\net8.0-windows\LoginSystemNet8.PainelFiltro.resources
+C:\Users\danie\OneDrive\Desktop\programação\Curso\Csharp\LoginSystemNet8\obj\Debug\net8.0-windows\LoginSystemNet8.PainelHome.resources
+C:\Users\danie\OneDrive\Desktop\programação\Curso\Csharp\LoginSystemNet8\obj\Debug\net8.0-windows\LoginSystemNet8.PainelPerfil.resources
+C:\Users\danie\OneDrive\Desktop\programação\Curso\Csharp\LoginSystemNet8\obj\Debug\net8.0-windows\LoginSystemNet8.PainelUsuarios.resources
